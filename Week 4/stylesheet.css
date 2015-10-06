@@ -1,0 +1,21 @@
+html {
+	background: green;
+}
+body {
+	background:white;
+	max-width: 500px;
+}
+h1 {
+	text-align: center;
+	background-color:aqua;
+}
+.centered {
+	text-align: center;
+}
+
+img {
+	border-color: #37AFC1;
+	border-style: solid;
+	border-width: 5px;
+	text-align: center;
+}
