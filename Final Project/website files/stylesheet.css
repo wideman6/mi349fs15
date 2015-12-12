@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* Cameron Wideman's CSS Document. 
+NOTE: You can replace my name with your name - this part up here is a CSS comment and is not telling the web browser to change the appearance of your html page(s). You could also put other things here, like the colors you picked for a quick reference. I like to do that so I can easily copy and paste the hex numbers when I need them. For Example:
+Dark Red: #862e19
+Cyan: #45b5dd
+Light Gray: #cccccc
+Dark Gray: #666666
+White: #ffffff
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+	background-image: url(concrete_seamless.png);
+}
+
+@media (max-width: 950px) {
+	body{
+		max-width: 400px;
+	}
+	h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+	}
+	p {
+    font-size: 20px;
+    line-height: 24px;
+	}
+	.banner {
+	  max-width:0px;
+	  }
+}
+
+@media (max-width: 400px) {
+	body{
+		max-width: 100%;
+	}
+	h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+	}
+	p {
+    font-size: 20px;
+    line-height: 24px;
+	}
+	.banner {
+	  max-width:0px;
+	  }
+}
+
+body {
+	color: #D34328;
+	font-family: 'Lora', serif;
+	width: 800px;
+	margin: 1.5em auto;
+	border-color: #3964C3;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-image: url(bodybg.png);
+}
+
+#nav {
+	list-style-type: none;
+	background-color: #bbbbbb;
+	width: 370px;
+	border: solid black 5px;
+	padding: 5px;
+	margin:0 auto;
+}
+
+#nav li {
+	display: inline;
+}
+
+h1 {
+	text-align: center;
+	color: #3964C3;
+}
+
+img{
+	margin: 10px
+}
+.logo{
+	float:left;
+}
+h2 {
+	padding: 7px;
+	color: #3964C3;
+}
+
+
+.valid{
+	float:right;
+}
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+  color: #D34328;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #2B3541;
+}
+a:visited  {
+	background-color: #35A590;
+
+}
+a:active {
+	background-color:#ffffff
+}
+
